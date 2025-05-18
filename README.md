@@ -52,6 +52,8 @@ Add dark mode toggle
 
 Create multiple pages (Shop, About Us, Contact)
 
+
+
 ## 📸 Screenshots
 
 ![Image](https://github.com/user-attachments/assets/72d09c16-4bf2-4aad-a7d0-02af26481747)
@@ -62,3 +64,8 @@ Create multiple pages (Shop, About Us, Contact)
 ![Image](https://github.com/user-attachments/assets/b0e8c5df-d1f7-466f-97c7-a945b31df7a3)
 ![Image](https://github.com/user-attachments/assets/9a493a59-1fbb-4d3a-8e0b-d2a83dca0694)
 ![Image](https://github.com/user-attachments/assets/161fe39d-204d-454e-bd19-991ff868287d)
+
+
+
+
+📍📍📍"Due to a current issue, some sections are not responsive on mobile devices."📍📍📍
