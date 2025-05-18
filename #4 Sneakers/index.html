@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers.com</title>
+    <!-- --WEB ICON------------------------------- -->
+    <link rel="icon" type="image/x-icon" href="assets/icon.jpeg">
+    <!-- ICON CDN -------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <!-- CSS ------------------ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Swiper CSS-------------------------------- -->
+     <link rel="stylesheet" href="swiper-bundel.min.css">
+
+     <!-- internal css for swiper--------------------- -->
+     <style>
+        .swiper{
+            margin-inline: initial;
+        }
+        
+        .swiper-button-prev::after,
+        .swiper-button-next::after{
+            content: '';
+        }
+        .swiper-pagination{
+            position: initial;
+            font-weight: 600;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next{
+            position: initial;
+            width: initial;
+            height: initial;
+            font-size: 1.25rem;
+            padding: 3px 20px;
+        }
+
+        .swiper-button-prev{
+            background-color: hsl(0, 0%, 4%);
+            color: hsl(0, 0%, 100%);
+        }
+        .swiper-button-next{
+            background-color: hsl(0, 0%, 100%);
+            color: hsl(0, 0%, 4%);
+        }
+     </style>
+
+</head>
+<body>
+
+    <!-- ---------------------------HEADER----------------------------- -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav--logo">SNEAKERS</a>
+            <div class="nav--menu" id="nav-menu">
+                <ul class="nav--list">
+                    <li>
+                        <a href="#HOME" class="nav--link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#ABOUT_US" class="nav--link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#COLLECTION" class="nav--link">Collection</a>
+                    </li>
+                    <li>
+                        <a href="#REVIEW" class="nav--link">Review</a>
+                    </li>
+                    <li>
+                        <a href="#CONTACT" class="nav--link">Contact</a>
+                    </li>
+                </ul>
+                <!-- Close button---- -->
+                 <div class="nav--close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                 </div>
+
+                 <div class="nav--social">
+                    <a href="#"  target="_blank" class="nav--social-link">
+                        <i class="fa-brands fa-facebook" style="color:  #4267b2;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/whiteshoes_23"  target="_blank" class="nav--social-link">
+                        <i class="fa-brands fa-instagram" style="color:  #e1306c;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/amit-das-583945292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank" class="nav--social-link">
+                        <i class="fa-brands fa-linkedin" style="color: #0A66C2;"></i>
+                    </a>
+                 </div>
+
+            </div>
+            <div class="nav--toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <!-- -----------------------------------------BODY------------------------------- -->
+
+    <main class="main" id="HOME">
+        <section class="home">
+            <div class="home--container">
+                <div class="home--data">
+                    <h3 class="home--subtitle">NEW IN</h3>
+                    <div thumbsSlider="" class="home--titles swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h1 class="home--title">
+                                    Air Jordan 1 <br> Low SE
+                                </h1>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <h1 class="home--title">
+                                    Air Jordan IV <br> Alternate 89
+                                </h1>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <h1 class="home--title">
+                                    Air Jordan 1 <br> Mis SE
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="home--button">
+                        Buy Now <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="home--images">
+                    <div class="home--swiper swiper">
+                        <div class="swiper-wrapper">
+                            <article class="home--article swiper-slide">
+                                <div class="home--card">
+                                    <div class="home--circle home--circle-1">
+                                        <img src="assets/G-boots-1.png" alt="image" class="home--img-1">
+                                        <img src="assets/G-boots-2.png" alt="image" class="home--img-2">
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="home--article swiper-slide">
+                                <div class="home--card">
+                                    <div class="home--circle home--circle-2">
+                                        <img src="assets/W-boots-1.png" alt="image" class="home--img-3">
+                                        <img src="assets/W-boots-2.png" alt="image" class="home--img-4">
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="home--article swiper-slide">
+                                <div class="home--card">
+                                    <div class="home--circle home--circle-3">
+                                        <img src="assets/B-boots-1.png" alt="image" class="home--img-5">
+                                        <img src="assets/B-boots-2.png" alt="image" class="home--img-6">
+                                    </div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <footer class="home--footer">
+                    <div class="home--controls">
+                          <!-- pagination -->
+                        <div class="swiper-pagination"></div>
+                        <div class="home--navigation">
+                            <!-- navigation buttons -->
+                            <div class="swiper-button-prev">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+
+                            <div class="swiper-button-next">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home--social">
+                        <a href="#"  target="_blank" class="home--social-link">
+                            <i class="fa-brands fa-facebook" style="color:  #4267b2;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/whiteshoes_23"  target="_blank" class="home--social-link" style="color:  #e1306c;">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/amit-das-583945292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank" class="home--social-link">
+                            <i class="fa-brands fa-linkedin" style="color:#0A66C2;"></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- --------------------------------------------About US----------------------------------- -->
+     
+    <section id="ABOUT_US">
+        <div class="ab--section">
+            <div class="ab--container">
+                <div class="ab--content-sec">
+                    <div class="ab--title">
+                        <h2>About <span>Us</span></h2>
+                    </div>
+                    <div class="ab--content">
+                        <h3>At SNEAKERS,</h3>
+                        <p> We're passionate about helping you find the perfect footwear to match your unique style and needs. Our journey began with a simple mission: to provide high-quality, comfortable, and affordable shoes that make you feel confident and empowered.</p> 
+                        <p>Our story started with a group of shoes enthusiasts who were frustrated with the limited options available in the market. We wanted to create a platform where people could find a wide range of stylish and comfortable shoes that cater to their individual tastes. After months of research, planning, and hard work</p>
+                        <div class="button">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="ab--img--sec">
+                    <img src="assets/about-image.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- ---------------------------------------------- Collection----------------------------------- -->
+
+    <section id="COLLECTION">
+        <div class="c--card-title">
+            <h2 >Explore Our <span>Collections</span> </h2>
+        
+       <div class="c--card-container">
+        <div class="c--card">
+            <img src="assets/brown-col.jpeg" alt="">
+            <div class="c--card--content">
+                <h3>AIR JORDAN 1</h3>
+                <p>Travis Scott X Air Jordan 1 Low OG 'REVERSE MOCHA'</p>
+                <div class="c--price">
+                <p>MRP ₹ 124,999.00 &nbsp; <span>70% off</span></p>
+                <p class="tax">including of all taxes</p>
+                </div>
+                <a href="#" class="c--btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="c--card">
+            <img src="assets/white-col.jpeg" alt="">
+            <div class="c--card--content">
+                <h3>JORDAN DELTA 3 LOW</h3>
+                <p>Nike Jordan Delta 3 Low Limited Collection Men's Shoes</p>
+                <div class="c--price">
+                    <p>MRP ₹ 10,237.00 &nbsp; <span>20% off</span></p>
+                    <p class="tax">including of all taxes</p>
+                    </div>
+                <a href="#" class="c--btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="c--card">
+            <img src="assets/red-col.jpeg" alt="">
+            <div class="c--card--content">
+                <h3>AIR JORDAN 'CHICAGO'</h3>
+                <p>Jordan 1 Retro High Off-White CHICAGO</p>
+                <div class="c--price">
+                    <p><del style="color: #ccc;">MRP ₹ 20,995.00</del> <br>MRP ₹ 16,995.00 &nbsp; <span>19% off</span></p>
+                    <p class="tax">including of all taxes</p>
+                    </div>
+                <a href="#" class="c--btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="c--card">
+            <img src="assets/green-col.jpeg" alt="">
+            <div class="c--card--content">
+                <h3>NIKE ZOOM CAGE 2</h3>
+                <p>Tennis Warehouse - Nike Zoom Cage 2 Men's Shoes</p>
+                <div class="c--price">
+                    <p>MRP ₹ 15,995.00 &nbsp; <span>40% off</span></p>
+                    <p class="tax">including of all taxes</p>
+                    </div>
+                <a href="#" class="c--btn">Read More</a>
+            </div>
+        </div>
+
+       </div>
+    </div>
+    </section>
+
+
+<!-- ---------------------------------------------- Review----------------------------------- -->
+
+ <section >
+
+    <div class="cus--container-section" >
+        <div class="cus--container" id="REVIEW">
+            <div class="review" >
+                <h2 >Customer's <span>Review</span> </h2>
+                <p>What our customers say about sneakers </p>
+        
+                <div class="swiper cus--review-slider">
+                    <div class="swiper-wrapper">
+        
+                        <div class="swiper-slide cus--box">
+                            <img src="assets/Rpic4.jpeg" alt="">
+                            <p>"Hey , Love my new Nike Freestep sneakers! Super comfy  stylish, and durable, 10/10 would recommend!"</p>
+                            <h3>Aurorae Valtara</h3>
+                            <div class="cus--stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide cus--box">
+                            <img src="assets/Rpic3.jpeg" alt="">
+                            <p>"Urbanite sneakers exceeded expectations! Ultra comfy , supportive, and sleek, absolutely love them!"</p>
+                            <h3>Kaidō Kyrope</h3>
+                            <div class="cus--stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide cus--box">
+                            <img src="assets/Rpic2.jpeg" alt="">
+                            <p>"Amazing Nike Freestep sneakers! Comfortable, stylish, and durable, perfect for daily wear, 10/10! recommend!"</p>
+                            <h3>Thane Harros</h3>
+                            <div class="cus--stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide cus--box">
+                            <img src="assets/Rpic1.jpeg" alt="">
+                            <p>"Obsessed with my Flightzone sneakers! Comfortable and affordable, highly recommend, 5 stars!"</p>
+                            <h3>Nixxara Lumyn </h3>
+                            <div class="cus--stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ---------------------------------------------- Contact Us----------------------------------- -->
+ <section id="CONTACT">
+    <div class="co--card-title">
+        <h2 >Contact <span> Us</span> </h2>
+        </div>
+    <div class="co--container-section">
+    <div class="co--container">
+        <div class="co--content">
+
+            <div class="co--leftSide">
+
+                <div class="address details">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-one">Nandigram , CH Road</div>
+                    <div class="text-one">West Bengal</div>
+                </div>
+
+                <div class="phone details">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">+9184 3698 5xxx</div>
+                </div>
+
+                <div class="email details">
+                    <i class="fa-solid fa-envelope" ></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">damit4781@gmail.com</div>
+                </div>
+
+            </div>
+
+            <div class="co--rightSide">
+                <div class="topic-text">Send us a message</div>
+                <p>If you have any work from me or any types of quires related to my project , you can send me message from here . It's my pleasure to help you .</p>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Enter your name" required="">
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Enter your email" required="">
+                </div>
+                <div class="input-box message-box">
+                    <textarea placeholder="Write your message here" required=""></textarea>
+                </div>
+                <div class="button">
+                    <input type="button" value="Send Now">
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+ </section>
+
+
+ <!-- ------------------------------------------- Footer------------------------------ -->
+
+ <footer class="footer--body">
+    <div class="footer--wave-box">
+       <div class="wave" id="wave1"></div>
+       <div class="wave" id="wave2"></div>
+       <div class="wave" id="wave3"></div>
+       <div class="wave" id="wave4"></div>
+    </div>
+    <div class="foo--container-sec">
+        <div class="footer-container">
+   
+            <div class=" fosec fo--sec-aboutus">
+                <h2>SNEAKERS</h2>
+                <p>We're passionate about helping you find the perfect footwear to match your unique style and needs. Our journey began with a simple mission: to provide high-quality, comfortable, and affordable shoes that make you feel confident and empowered.</p>
+                <ul class="footer--social">
+
+                    <li><a href="#"  target="_blank" class="home--social-link">
+                        <i class="fa-brands fa-facebook" ></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/whiteshoes_23"  target="_blank" class="home--social-link" >
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/in/amit-das-583945292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank" class="home--social-link">
+                            <i class="fa-brands fa-linkedin" ></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="fosec fo--sec-menu">
+                <h2>Menu</h2>
+                <ul>
+                    <li>
+                        <a href="#HOME"> Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#ABOUT_US">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#COLLECTION">Collection</a>
+                    </li>
+
+                    <li>
+                        <a href="#REVIEW"> Review</a>
+                    </li>
+
+                    <li>
+                        <a href="#CONTACT">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="fosec fo--sec-quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+
+                    <li>
+                        <a href="#"> Disclaimer</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="fosec fo--sec-contact">
+                <h2>Contact Us</h2>
+                <ul class="fo--info">
+                    <li>
+                       <span><i class="fa-solid fa-location-crosshairs"></i></span> <p><a href="#">  Nandigram , CH Road , West Bengal</a></p>
+                    </li>
+
+                    <li>
+                        <span><i class="fa-solid fa-mobile"> </i></span> <p><a href="#"> +9184 3698 5xxx</a></p>
+                     </li>
+
+                     <li>
+                        <span> <i class="fa-solid fa-envelope" > </i></span> <p><a href="#">  damit4781@gmail.com</a></p>
+                     </li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+
+            <div class="copy">
+                <p>Copyright &copy; 2025 Sneakers. All rights reserved</p>
+            </div>
+ </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<!-- --------------JS--------------- -->
+    <script src="scripts.js"></script>
+    <!-- -------------------Swiper JS-------------- -->
+     <script src="swiper-bundel.min.js"></script>
+
+     <!-- internal js for swiper---------------------- -->
+     <script>
+
+        // --------------for image home---------
+         let swiperImages = new Swiper('.home--swiper', {
+        loop: true,
+        spaceBetween: 64,
+        grabCursor:true,
+        centeredSlides:true,
+        autoplay:{
+            delay:5500,
+            disableOnInteraction:false,
+        },
+
+        pagination: {
+         el: '.swiper-pagination',
+        //  type:'fraction',
+        },
+
+        navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+        },
+ });
+
+    // -------------for title-------------
+    let swiperTitles = new Swiper('.home--titles', {
+        loop: true,
+        spaceBetween: 64,
+        grabCursor:true,
+        centeredSlides:true,
+
+ });
+
+ swiperImages.controller.control = swiperTitles
+ swiperTitles.controller.control = swiperImages
+
+
+
+ // --------------for image review---------
+
+ var swiper = new Swiper(".cus--review-slider", {
+        loop:true,
+        spaceBetween: 20,
+        autoplay:{
+            delay:4500,
+            disableOnInteraction:false,
+        },
+
+        breakpoints:{
+            0:{
+                slidesPerView:1,
+            },
+            768:{
+                slidesPerView:2,
+            },
+            1020:{
+                slidesPerView:3,
+            },
+        },
+ });
+
+
+
+
+     </script>
+
+</html>
