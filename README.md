@@ -52,10 +52,9 @@ Add dark mode toggle
 
 Create multiple pages (Shop, About Us, Contact)
 
-##
-📢 "Please be patient — a live demo will be available very soon."
-##
+# 🖼️ Live Demo
 
+https://sneakers-in.netlify.app/
 
 ## 📸 Screenshots
 
